@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "discord.js": "^14.18.0",
+    "dotenv": "^16.4.7"
+  },
+  "name": "proavalon-discord-bot",
+  "version": "1.0.0",
+  "description": "Discord bot for ProAvalon: The Resistance game coordination",
+  "main": "index.js",
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "proavalon",
+    "resistance",
+    "game"
+  ],
+  "author": "JigglyPanda",
+  "license": "MIT"
+}
